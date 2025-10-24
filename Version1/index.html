@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>José José - El Príncipe de la Canción</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay">
+      <h1>José José</h1>
+      <p>El Príncipe de la Canción</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="grid-container">
+      
+      <div class="card bio">
+        <h2>Biografía</h2>
+        <p>
+          José Rómulo Sosa Ortiz, conocido como <strong>José José</strong>, nació el 17 de febrero de 1948 en la Ciudad de México.  
+          Fue uno de los más grandes intérpretes de la música romántica, con una voz inconfundible y un estilo lleno de elegancia.  
+          Su talento lo convirtió en un ícono internacional, amado por millones.
+        </p>
+      </div>
+
+      <div class="card songs">
+        <h2>Mejores Canciones</h2>
+        <ul id="songList">
+          <li>🎵 El Triste <button onclick="mostrarLetra(0)">Ver letra</button>
+            <p class="song">Qué triste fue decirnos adiós, cuando nos adorábamos más...</p>
+          </li>
+          <li>🎶 La Nave del Olvido <button onclick="mostrarLetra(1)">Ver letra</button>
+            <p class="song">Espera un poco, un poquito más, para llevarte mi felicidad...</p>
+          </li>
+          <li>🎤 Gavilán o Paloma <button onclick="mostrarLetra(2)">Ver letra</button>
+            <p class="song">Fue mentira lo de tu amor, tú eras ave y yo fui el cazador...</p>
+          </li>
+          <li>🎼 Lo Pasado, Pasado <button onclick="mostrarLetra(3)">Ver letra</button>
+            <p class="song">Ya lo pasado, pasado, no me interesa...</p>
+          </li>
+          <li>💛 Amar y Querer <button onclick="mostrarLetra(4)">Ver letra</button>
+            <p class="song">No es lo mismo amar que querer, no es lo mismo querer que amar...</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card facts">
+        <h2>Datos Curiosos</h2>
+        <ul>
+          <li>🌟 Nominado al Grammy y múltiples premios internacionales.</li>
+          <li>🎙️ Voz barítono lírico con control impecable.</li>
+          <li>👑 Llamado “El Príncipe de la Canción” tras su éxito “El Príncipe”.</li>
+          <li>🕊️ Falleció en 2019, dejando un legado eterno.</li>
+        </ul>
+      </div>
+
+      <div class="card gallery">
+        <h2>Galería</h2>
+        <img src="https://yt3.googleusercontent.com/pcR5ggrmpyrpGCgI9EUDBOk18OMU_Dm_Pvq_8tD_ILhqr4OYvOyfqKu7QktkkOX-Kc5glGd0HA=s900-c-k-c0x00ffffff-no-rj" alt="José José" class="portrait">
+        <p>Un ícono del romanticismo latinoamericano.</p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho con 💛 por Daniel Marmolejo — En honor a José José</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
